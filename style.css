@@ -1,0 +1,634 @@
+*{
+
+}
+body{
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.nav1{
+    display: flex;
+    padding: 8px 32px;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    z-index: 1000 ;
+}
+.nav1 button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background-color: #82b440;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    transition:  background-color;
+}
+.nav1 button:hover{
+    opacity: 90%;
+}
+.nav1 img{
+    width: 08%;
+}
+header{
+font-family: "Jost", serif;
+background-image: url(asset/stack_image/image/Photographie/landing_img-53.jpg);
+height: 700px;
+object-fit: cover;
+width: 100%;
+background-repeat: no-repeat;
+object-fit: cover;
+}
+header .light{
+    position: absolute;
+    top: 0;
+   left: 70%;
+}
+header h1{
+    font-family:"Prata", serif;
+    font-weight: 500;
+    font-size: 3.75rem;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+     font-size: 15px;
+     letter-spacing: 1px;
+}
+.nav a:hover{
+    color: #c47d14;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 36px 50px 36px;
+}
+.navbar img{
+    width: 07%;
+    padding-right: 100px;
+}
+.navbar button{
+    color: white;
+    background-color: #69727d;
+    padding: 18px 36px 18px 36px;
+    border: none;
+    font-weight: 560;
+    font-style: 14px;
+    font-family: "Jost", serif;
+}
+.navbar button:hover{
+    background-color: #c47d14;
+    color: white;
+}
+header .land01{
+    position: absolute;
+    top: 28%;
+    transition: transform 0.5s;
+}
+header .land01:hover{
+    transform: scale(1.1);
+}
+header .land02{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transition: transform 0.5s;
+}
+header .land02:hover{
+    transform: scale(1.1);
+}
+header .land03{
+    position: absolute;
+    left: 29%;
+    width: 42%;
+    top: 46%;
+    transition: transform 0.5s;
+}
+header .land03:hover{
+    transform: scale(1.1);
+}
+header img.land04{
+    width: auto;
+    transition: transform 0.5s;
+}
+header img.land04:hover{
+    transform: scale(1.2);
+}
+
+.land4{
+   all: unset;
+    top: 50%;
+    position: absolute;
+    right: 15%;
+    transition: transform 0.4s;
+    
+}
+.land4:hover{
+    transform: scale(1.1);
+}
+header .land05{
+    position: absolute;
+    top: 20%;
+    left: 87.5%;
+    transition: transform 0.5s;
+}
+header .land05:hover{
+    transform: scale(1.1);
+}
+.ring{
+    position: absolute;
+    top: 70%;
+    left: 03%;
+}
+.page2{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.page2 h1{
+    font-size: 11rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 3rem;
+    color: #33394010;
+    margin: 0;
+    margin-top: 2rem;
+    font-family:"Prata", serif;
+    padding: 0;
+}
+.page2 h2{
+    font-size: 6rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    color: #d6993e;
+    font-family:"Prata", serif;
+    padding: 0;
+}
+    
+.page2 .creative{
+    font-size: 3rem;
+    text-align: center;
+    font-family:"Prata", serif;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 3rem;
+    padding: 0;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 3.5rem;
+justify-content: center;
+width: 80%;
+margin: auto;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.card1 img{
+    width: 100%;
+     transition: transform 0.5s;
+     box-shadow: 0px 0px 12px 6px rgba(90, 92, 94, 0.1);
+}
+.card1 img:hover{
+    transform: scale(1.1);
+    background-color:black;
+    filter: brightness(90%);
+}
+.card1 p{
+    font-family: "Jost", serif;
+    font-weight: 500;
+    padding-top: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+.card1  p :hover{
+    color: #d6993e;
+}
+.number{
+    color: #d6993e;
+}
+.chut{
+    width: 420px;
+    height: 280px;
+}
+.page4{
+    background-color: #f4f1ec;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    width: 100%;
+    margin: auto;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+   
+}
+.page4 .girl{
+    height: 400px;
+    width: 550px;
+    box-shadow: 0px 0px 12px 6px rgba(90, 92, 94, 0.1);
+    
+}
+.that-girl{
+position: relative;
+}
+.that-girl .nine{
+    position: absolute;
+    top: 60%;
+    left: 72%;
+    
+}
+
+.beautiful{
+     font-family:"Prata", serif;
+    font-weight: 500;
+    font-size: 44px;
+    width: 30%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+.beautiful h1{
+     font-family:"Prata", serif;
+    font-weight: 550;
+    font-size: 44px;
+     padding-right: 100px;
+     margin: 0;
+}
+.beautiful p{
+    width: 76%;
+    font-family: "Jost", serif;
+    font-weight: 350;
+    font-size: 1.1rem;
+    padding-left: 100px;
+    
+    
+}
+.marriage{
+    display: grid;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.marriage .image1{
+      height: 172px;
+      grid-area: 1/1;
+      z-index: 0;
+      
+}
+.marriage .image2{
+       grid-area: 1/1;
+       z-index: 1;
+       transform: translate(50%);
+}
+.page5{
+    padding-top: 6rem;
+}
+.page5 h1{
+       font-family:"Prata", serif;
+       font-weight: 300;
+       font-size: 2.5rem;
+       text-align: center;
+       margin-bottom: 0;
+}
+.page5 h1{
+
+}
+.that-girll{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    
+}
+.that-girll1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    
+}
+.girll{
+     box-shadow: 0px 0px 12px 6px rgba(90, 92, 94, 0.1);
+     border : 1px solid #db9525;
+}
+.girlll{
+    box-shadow: 0px 0px 12px 6px rgba(90, 92, 94, 0.1);
+}
+.that-girll1 .go{
+    border : 1px solid #db9525;
+}
+.page6 {
+    background-color: rgb(244,241,236);
+    padding: 86px 0px 0px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page6 h1{
+        font-family:"Prata", serif;
+       font-weight: 300;
+       font-size: 2.5rem;
+       text-align: center;
+       margin-bottom:
+}
+.that{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.page7{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom:6rem;
+}
+.contennt{
+    width: 32%;
+}
+.contennt p{
+    text-align: center;
+     font-family: "Jost", serif;
+    font-weight: 340;
+    padding-bottom: 40px;
+    
+}
+.this{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.this img{
+    transition: transform 0.3s ease-in-out;
+}
+.this img:hover{
+    transform: scale(0.88);
+}
+.page7 h1{
+        font-family:"Prata", serif;
+       font-weight: 400;
+       font-size: 2.5rem;
+       text-align: center;
+      
+}
+.this1 p{
+     text-align: center;
+     font-family: "Jost", serif;
+    font-weight: 340;
+    transition: color;
+}
+.this1 p:hover{
+   color: #d6993e;
+}
+.text-contennt{
+    padding: 0.5rem 0px;
+}
+.page8{
+    background-image: url(asset/stack_image/image/Photographie/bg-landing.jpg);
+    height: 80vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+.page8 h1{
+   
+    font-family:"Prata", serif;
+       font-weight: 580;
+       font-size: 3.1rem;
+       text-align: center;
+       color: white;
+}
+.button-footer{
+    padding: 1rem 3.5rem 1rem 3.5rem;
+}
+.page8 .contennt{
+    width: 40%;
+    margin: auto;
+    padding-top: 8rem;
+}
+.page8 button{
+    color: white;
+      font-family: "Jost", serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: white 2px solid;
+    background-color: transparent;
+    
+}
+.page8 button:hover{
+    color: white;
+    background-color: #d6993e;
+    border: none;
+}
+
+span{
+    color: #d6993e;
+}
+.page8 p{
+    font-weight: 500;
+    color: white;
+     font-family: "Jost", serif;
+   margin-top: 14rem;
+}
+@media screen and (max-width:1024px) {
+  header{
+    height: 700px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .land01{
+        display: none;
+    }
+     .land02{
+        display: none;
+    }
+     
+    .land4{
+        display: none;
+    }
+     .land5{
+        display: none;
+    }
+    .land05{
+        display: none;
+    }
+    header h1{
+       width: 60%;
+       font-size: 2.4rem;
+       margin-top: 1rem;
+       
+    }
+    .land03{
+        object-fit: cover;
+         left: 16% !important;
+         width: 70% !important;
+         top: 78% !important;
+      
+    }
+    .light{
+    position: absolute;
+    top: 12% !important;
+   left: 54% !important; 
+   object-fit: cover;
+   }
+    .ring{
+    position: absolute;
+    top: 116%;
+    left: 0%;
+}
+    .page2 h1{
+        font-size: 7rem;
+        margin-top: 0.75em;
+        margin-bottom: 0;
+    }
+     .page2 h2{
+        margin-top: 0em;
+        margin-bottom: 0;
+    }
+    .page2 .creative{
+        font-size:2.5rem;
+    }
+    .container{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     align-items: center;
+     width: 94%;
+     gap: 2rem;
+     justify-content: center;
+    }
+    .card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .card1 img{
+        object-fit: contain;
+    }
+    .that-girl .nine{
+    position: absolute;
+    top: 42%;
+    left: 44%;
+}
+    .page4 .girl{
+    height: 20rem;
+    width: 28rem;
+    padding: 0px 16px;
+}
+.beautiful{
+    width: 50%;
+}
+.beautiful h1{
+    font-size: 2.2rem;
+    width: 80%;
+}
+.beautiful p{
+   padding-left: 0;
+   width: 100%;
+}
+.page4{
+    gap: 2rem;
+}
+.page5{
+    padding-top: 2rem;
+}
+.page5 h1{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    
+}
+.content{
+  
+    gap: 1rem;
+    align-items: center;
+    width: 70%;
+    box-sizing: border-box;
+    margin: auto;
+}
+.that-girll1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 64%;
+    
+}
+.that-girll{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 64%;
+    
+}
+.girly{
+    width: 22%;
+}
+.contint .that{
+    width: 100%;
+    padding: 12px 12px 12px 12px;
+    margin: auto;
+    gap: 1rem;
+}
+.page7 h1{
+    font-size: 2.5rem;
+    align-self: center;
+}
+.page7{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.page7 .contennt{
+    width: 50%;
+}
+.this1 img{
+    width: 6rem;
+}
+.page8{
+    height: 100vh;
+}
+.page8 h1{ 
+    font-size: 2.5rem;
+}
+.page8 .contennt{
+    width: 50%;
+     width: 40%;
+    margin: auto;
+    padding-top: 0rem;
+}
+.page8 p{
+    margin-top: 7rem;
+}
+
+*{
+    overflow-x: hidden;
+}
+}
